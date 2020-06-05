@@ -1,0 +1,30 @@
+@font-face { 
+	font-family: 'DWImpactamin'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/DWImpactamin.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+	}
+
+/* ERROR */
+
+   #error {
+      margin: 5%;
+   }
+
+   #error .sect-error {
+      float: left;
+      margin-left : 12%;
+      margin-top : 8%;
+   }
+   
+   #error .right {
+      margin-left: 4%;
+   }
+   
+   button{
+   	font-family: 'DWImpactamin', 'sans-serif'; 
+   }
+   
+   button:last-child {
+   	margin-left : 2%;
+   }

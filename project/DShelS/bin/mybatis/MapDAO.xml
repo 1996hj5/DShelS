@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace = "mybatis.MapDAO">
+		<select id="CivilData" resultType="map">
+			select c_index as idx, 
+							c_name as title, 
+							c_div as cat , 
+							c_naddr as naddr, 
+							c_addr as addr ,
+							c_lat as lat , 
+							c_lon as lon, 
+							c_area as area, 
+							c_person as person, 
+							c_mname as  mname, 
+							c_mtel as mtel 
+				from CSHELTER limit 3000
+		</select>
+		
+		<select id="earthData" resultType="map">
+			select e_index as idx ,
+						 e_name as title,
+						  e_addr as addr,
+						   e_area as area,
+						    e_lat as lat,
+						     e_lon as lon,
+						      e_md as md,
+						       e_tel as tel 
+				from ESHELTER
+		</select>
+		
+		<select id="tsunamiData" resultType="map">
+				select t_index as idx , 
+				t_pname as title, 
+				t_type as cat ,
+				 t_addr as addr, 
+				 t_lat as lat ,
+				  t_lon as lon, 
+				  t_area as area ,
+				   t_person as person , 
+				   t_tel as tel ,
+				    t_mname as mname, 
+				    t_mtel as mtel 
+				  from TSHELTER;
+		</select>
+		
+		<select id="CSearch" resultType="map" parameterType="map">
+			select distinct  c_index as idx, c_name as title, c_div as cat , c_naddr as naddr, c_addr as addr , c_lat as lat , c_lon as lon, c_area as area, c_person as person, c_mname as  mname, c_mtel as mtel from CSHELTER
+				where c_naddr like concat('%',#{city},'%') AND c_naddr like concat('%',#{local},'%') or c_addr like concat('%',#{city},'%') AND c_addr like concat('%',#{local},'%')
+		</select>
+		
+		<select id="ESearch" resultType="map"  parameterType="map">
+			select e_index as idx, e_name as title, e_addr as addr, e_area as area , e_lat as lat, e_lon as lon , e_md as md, e_tel as tel from ESHELTER 
+				where e_addr like concat('%',#{city},'%') AND e_addr like concat('%',#{local},'%')
+		</select>
+	
+		<select id="TSearch" resultType="map"  parameterType="map">
+			select t_index as idx , t_pname as title, t_type as cat , t_addr as addr, t_lat as lat , t_lon as lon, t_area as area , t_person as person , t_tel as tel , t_mname as mname, t_mtel as mtel from TSHELTER
+				where t_addr like concat('%',#{city},'%') AND t_addr like concat('%',#{local},'%')
+		</select>
+		
+		<select id="CSearchCity" resultType="map" parameterType="map">
+			select distinct  c_index as idx, c_name as title, c_div as cat , c_naddr as naddr, c_addr as addr , c_lat as lat , c_lon as lon, c_area as area, c_person as person, c_mname as  mname, c_mtel as mtel from CSHELTER
+			where c_naddr like concat('%',#{city},'%') or c_addr like concat('%',#{city},'%') limit 3000
+		</select>
+	
+		<select id="TSearchCity" resultType="map"  parameterType="map">
+			select t_index as idx , t_pname as title, t_type as cat , t_addr as addr, t_lat as lat , t_lon as lon, t_area as area , t_person as person , t_tel as tel , t_mname as mname, t_mtel as mtel from TSHELTER
+				where t_addr like concat('%',#{city},'%')
+		</select>		
+
+		<select id="ESearchCity" resultType="map"  parameterType="map">
+			select e_index as idx, e_name as title, e_addr as addr, e_area as area , e_lat as lat, e_lon as lon , e_md as md, e_tel as tel from ESHELTER 
+				where e_addr like concat('%',#{city},'%')
+		</select>		
+		
+  </mapper>

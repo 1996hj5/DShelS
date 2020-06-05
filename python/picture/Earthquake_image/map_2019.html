@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e70f109e0e9040c8aca7c12cb73ddf96 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e70f109e0e9040c8aca7c12cb73ddf96" ></div>
+        
+</body>
+<script>    
+    
+            var map_e70f109e0e9040c8aca7c12cb73ddf96 = L.map(
+                "map_e70f109e0e9040c8aca7c12cb73ddf96",
+                {
+                    center: [37.576001, 126.9768],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f6c0165161a46219f87377879c9190c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+            var marker_f17081ab70834fa9b00abe3da6fdb756 = L.marker(
+                [36.53, 129.66],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_da3ba840adac424d8fc01a93f3a8188e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c28b1e7cb0f94a31ba9dc4b01d265be5 = $(`<div id="html_c28b1e7cb0f94a31ba9dc4b01d265be5" style="width: 100.0%; height: 100.0%;">경북 영덕군 동북동쪽 29km 해역</div>`)[0];
+            popup_da3ba840adac424d8fc01a93f3a8188e.setContent(html_c28b1e7cb0f94a31ba9dc4b01d265be5);
+        
+
+        marker_f17081ab70834fa9b00abe3da6fdb756.bindPopup(popup_da3ba840adac424d8fc01a93f3a8188e)
+        ;
+
+        
+    
+    
+            var marker_f6b509cda08e4fb4b46910be64dcc3a0 = L.marker(
+                [41.3, 129.21],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_3a891518fb3a4809b662bebcfef8276c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb926d28574540c5850f2a28c2afb99e = $(`<div id="html_bb926d28574540c5850f2a28c2afb99e" style="width: 100.0%; height: 100.0%;">북한 함경북도 길주 북북서쪽 40km 지역</div>`)[0];
+            popup_3a891518fb3a4809b662bebcfef8276c.setContent(html_bb926d28574540c5850f2a28c2afb99e);
+        
+
+        marker_f6b509cda08e4fb4b46910be64dcc3a0.bindPopup(popup_3a891518fb3a4809b662bebcfef8276c)
+        ;
+
+        
+    
+    
+            var marker_674e38b83c4445adad1aee297fc628f7 = L.marker(
+                [36.77, 128.31],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_dad7d4332b364eb093d034fdfc028c72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5ddb3aed52c48d588414ba511952102 = $(`<div id="html_f5ddb3aed52c48d588414ba511952102" style="width: 100.0%; height: 100.0%;">경북 문경시 북북동쪽 23km 지역</div>`)[0];
+            popup_dad7d4332b364eb093d034fdfc028c72.setContent(html_f5ddb3aed52c48d588414ba511952102);
+        
+
+        marker_674e38b83c4445adad1aee297fc628f7.bindPopup(popup_dad7d4332b364eb093d034fdfc028c72)
+        ;
+
+        
+    
+    
+            var marker_e23cb74d38e0401e87d2eb47de915509 = L.marker(
+                [37.37, 124.23],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_bff79dc9d6d8457b81d795174ae8d8a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_080b83b369614e29912bc82737a923ee = $(`<div id="html_080b83b369614e29912bc82737a923ee" style="width: 100.0%; height: 100.0%;">인천 옹진군 백령도 남남서쪽 76km 해역</div>`)[0];
+            popup_bff79dc9d6d8457b81d795174ae8d8a0.setContent(html_080b83b369614e29912bc82737a923ee);
+        
+
+        marker_e23cb74d38e0401e87d2eb47de915509.bindPopup(popup_bff79dc9d6d8457b81d795174ae8d8a0)
+        ;
+
+        
+    
+    
+            var marker_da0b8922e948405b948dc90ede10745f = L.marker(
+                [35.79, 129.2],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_0da81a3decb24411be44dc0610d26572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1819b872f0324fad9a2d2cc121617461 = $(`<div id="html_1819b872f0324fad9a2d2cc121617461" style="width: 100.0%; height: 100.0%;">경북 경주시 남남서쪽 5km 지역</div>`)[0];
+            popup_0da81a3decb24411be44dc0610d26572.setContent(html_1819b872f0324fad9a2d2cc121617461);
+        
+
+        marker_da0b8922e948405b948dc90ede10745f.bindPopup(popup_0da81a3decb24411be44dc0610d26572)
+        ;
+
+        
+    
+    
+            var marker_b0a081a950304c3995393f22d9aeddb1 = L.marker(
+                [37.02, 127.93],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_4b2fede4b5c64cec87147d4581a86b9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f09b5326de5424db51d8ea5f4657488 = $(`<div id="html_2f09b5326de5424db51d8ea5f4657488" style="width: 100.0%; height: 100.0%;">충북 충주시 북쪽 3km 지역</div>`)[0];
+            popup_4b2fede4b5c64cec87147d4581a86b9e.setContent(html_2f09b5326de5424db51d8ea5f4657488);
+        
+
+        marker_b0a081a950304c3995393f22d9aeddb1.bindPopup(popup_4b2fede4b5c64cec87147d4581a86b9e)
+        ;
+
+        
+    
+    
+            var marker_1b885fbe787247c18c3398542dd24d0c = L.marker(
+                [33.94, 127.62],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_9bf334d0c4ce4fdbaa4c4c4a86c387dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b07b97f68bcf4e16a459d3906ecfdb05 = $(`<div id="html_b07b97f68bcf4e16a459d3906ecfdb05" style="width: 100.0%; height: 100.0%;">전남 여수시 거문도 동남동쪽 30km 해역</div>`)[0];
+            popup_9bf334d0c4ce4fdbaa4c4c4a86c387dd.setContent(html_b07b97f68bcf4e16a459d3906ecfdb05);
+        
+
+        marker_1b885fbe787247c18c3398542dd24d0c.bindPopup(popup_9bf334d0c4ce4fdbaa4c4c4a86c387dd)
+        ;
+
+        
+    
+    
+            var marker_9c252c4f28c04064b6e97fef55c2726c = L.marker(
+                [36.53, 129.66],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_353a6cc7d08844e19cd8da031f783f8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1725a6260181444d8aa5aa6db20a939e = $(`<div id="html_1725a6260181444d8aa5aa6db20a939e" style="width: 100.0%; height: 100.0%;">경북 영덕군 동북동쪽 29km 해역</div>`)[0];
+            popup_353a6cc7d08844e19cd8da031f783f8f.setContent(html_1725a6260181444d8aa5aa6db20a939e);
+        
+
+        marker_9c252c4f28c04064b6e97fef55c2726c.bindPopup(popup_353a6cc7d08844e19cd8da031f783f8f)
+        ;
+
+        
+    
+    
+            var marker_2c41891ca2094b2891ff9da3ca8157e3 = L.marker(
+                [36.16, 129.9],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_4fb895d30e804fcb8b7f8f01050df627 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8670b0debb24c2fa286f999cf41f1b0 = $(`<div id="html_b8670b0debb24c2fa286f999cf41f1b0" style="width: 100.0%; height: 100.0%;">경북 포항시 북구 동북동쪽 50km 해역</div>`)[0];
+            popup_4fb895d30e804fcb8b7f8f01050df627.setContent(html_b8670b0debb24c2fa286f999cf41f1b0);
+        
+
+        marker_2c41891ca2094b2891ff9da3ca8157e3.bindPopup(popup_4fb895d30e804fcb8b7f8f01050df627)
+        ;
+
+        
+    
+    
+            var marker_b4d3d06bbf8a4f20953b561b23852d44 = L.marker(
+                [36.16, 129.85],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_b735551bb0084a4a9bdc4511944201b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad7888bd74d948efa6fce454924e73b0 = $(`<div id="html_ad7888bd74d948efa6fce454924e73b0" style="width: 100.0%; height: 100.0%;">경북 포항시 북구 동북동쪽 45km 해역</div>`)[0];
+            popup_b735551bb0084a4a9bdc4511944201b4.setContent(html_ad7888bd74d948efa6fce454924e73b0);
+        
+
+        marker_b4d3d06bbf8a4f20953b561b23852d44.bindPopup(popup_b735551bb0084a4a9bdc4511944201b4)
+        ;
+
+        
+    
+    
+            var marker_bad9cf3fee3d4be89d02077a87fc6fed = L.marker(
+                [38.9, 125.86],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_cb2d9c9467044a588e28c6b5278903c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fc095a13c544893957e6329c7d6c0bc = $(`<div id="html_1fc095a13c544893957e6329c7d6c0bc" style="width: 100.0%; height: 100.0%;">북한 평양 남동쪽 17km 지역</div>`)[0];
+            popup_cb2d9c9467044a588e28c6b5278903c3.setContent(html_1fc095a13c544893957e6329c7d6c0bc);
+        
+
+        marker_bad9cf3fee3d4be89d02077a87fc6fed.bindPopup(popup_cb2d9c9467044a588e28c6b5278903c3)
+        ;
+
+        
+    
+    
+            var marker_cf38ed5a8bb6476bbf2fe1b86ba4ff47 = L.marker(
+                [33.29, 126.25],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_305dcd91d97241a2ab62e1a74a676fdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e74fc8fba0314e98aaed6c6dbf0fb59f = $(`<div id="html_e74fc8fba0314e98aaed6c6dbf0fb59f" style="width: 100.0%; height: 100.0%;">제주 서귀포시 서쪽 29km 지역</div>`)[0];
+            popup_305dcd91d97241a2ab62e1a74a676fdc.setContent(html_e74fc8fba0314e98aaed6c6dbf0fb59f);
+        
+
+        marker_cf38ed5a8bb6476bbf2fe1b86ba4ff47.bindPopup(popup_305dcd91d97241a2ab62e1a74a676fdc)
+        ;
+
+        
+    
+    
+            var marker_c3f1f9a79f1a465f90e0af5756e2ed5f = L.marker(
+                [36.72, 128.41],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_c1b4c4ab8cbf475fa028afec9410ee48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e743c49718f94672845bd2bfcd86f78a = $(`<div id="html_e743c49718f94672845bd2bfcd86f78a" style="width: 100.0%; height: 100.0%;">경북 예천군 북북서쪽 8km 지역</div>`)[0];
+            popup_c1b4c4ab8cbf475fa028afec9410ee48.setContent(html_e743c49718f94672845bd2bfcd86f78a);
+        
+
+        marker_c3f1f9a79f1a465f90e0af5756e2ed5f.bindPopup(popup_c1b4c4ab8cbf475fa028afec9410ee48)
+        ;
+
+        
+    
+    
+            var marker_82301b1b39f8434a83776ce59efc0e3f = L.marker(
+                [36.51, 125.5],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_fab1a59753ce43948f5d7d4bdb4e33a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94f110ccb4464ccfa6fc36920aaffa29 = $(`<div id="html_94f110ccb4464ccfa6fc36920aaffa29" style="width: 100.0%; height: 100.0%;">충남 태안군 서격렬비도 남남서쪽 12km 해역</div>`)[0];
+            popup_fab1a59753ce43948f5d7d4bdb4e33a5.setContent(html_94f110ccb4464ccfa6fc36920aaffa29);
+        
+
+        marker_82301b1b39f8434a83776ce59efc0e3f.bindPopup(popup_fab1a59753ce43948f5d7d4bdb4e33a5)
+        ;
+
+        
+    
+    
+            var marker_6318b453138a432792ab20e23f17a669 = L.marker(
+                [36.77, 129.03],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_dadef12bf829418da4f440dcda17d0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d517245e28a41f38b10e2bd4a37d428 = $(`<div id="html_9d517245e28a41f38b10e2bd4a37d428" style="width: 100.0%; height: 100.0%;">경북 영양군 북북서쪽 14km 지역</div>`)[0];
+            popup_dadef12bf829418da4f440dcda17d0c4.setContent(html_9d517245e28a41f38b10e2bd4a37d428);
+        
+
+        marker_6318b453138a432792ab20e23f17a669.bindPopup(popup_dadef12bf829418da4f440dcda17d0c4)
+        ;
+
+        
+    
+    
+            var marker_f277b2c06e494c8e96094f6a946520a6 = L.marker(
+                [37.31, 124.74],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_d62d59e0f2c0471e9701d13e77614fed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3613cfa863f549f0b5ef2dcf9239311e = $(`<div id="html_3613cfa863f549f0b5ef2dcf9239311e" style="width: 100.0%; height: 100.0%;">인천 옹진군 백령도 남쪽 72km 해역</div>`)[0];
+            popup_d62d59e0f2c0471e9701d13e77614fed.setContent(html_3613cfa863f549f0b5ef2dcf9239311e);
+        
+
+        marker_f277b2c06e494c8e96094f6a946520a6.bindPopup(popup_d62d59e0f2c0471e9701d13e77614fed)
+        ;
+
+        
+    
+    
+            var marker_9733b9ef788d40c4a824c6fe5fc4d916 = L.marker(
+                [39.63, 127.12],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_376e222cb82d4302844bfcf44779f0a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_280723c9b3b14f91bc66132ffb5394ac = $(`<div id="html_280723c9b3b14f91bc66132ffb5394ac" style="width: 100.0%; height: 100.0%;">북한 함경남도 금야 북서쪽 15km 지역</div>`)[0];
+            popup_376e222cb82d4302844bfcf44779f0a2.setContent(html_280723c9b3b14f91bc66132ffb5394ac);
+        
+
+        marker_9733b9ef788d40c4a824c6fe5fc4d916.bindPopup(popup_376e222cb82d4302844bfcf44779f0a2)
+        ;
+
+        
+    
+    
+            var marker_32ef5545f2cb433aa4bfba6e37e2ea8a = L.marker(
+                [36.82, 128.73],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_da011046abc2492099c07f3447f04546 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_736e24af000d4eb9874ee2bb5aad399f = $(`<div id="html_736e24af000d4eb9874ee2bb5aad399f" style="width: 100.0%; height: 100.0%;">경북 봉화군 남쪽 8km 지역</div>`)[0];
+            popup_da011046abc2492099c07f3447f04546.setContent(html_736e24af000d4eb9874ee2bb5aad399f);
+        
+
+        marker_32ef5545f2cb433aa4bfba6e37e2ea8a.bindPopup(popup_da011046abc2492099c07f3447f04546)
+        ;
+
+        
+    
+    
+            var marker_f8d7e947bf564147bb1f0b35063a4b9e = L.marker(
+                [33.47, 126.4],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_41d31c46c5ba4f1dbbc5790f4b342884 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e62860667e134ec59827b50229b9b065 = $(`<div id="html_e62860667e134ec59827b50229b9b065" style="width: 100.0%; height: 100.0%;">제주 제주시 서남서쪽 13km 지역</div>`)[0];
+            popup_41d31c46c5ba4f1dbbc5790f4b342884.setContent(html_e62860667e134ec59827b50229b9b065);
+        
+
+        marker_f8d7e947bf564147bb1f0b35063a4b9e.bindPopup(popup_41d31c46c5ba4f1dbbc5790f4b342884)
+        ;
+
+        
+    
+    
+            var marker_f39314e6f5fd4f6ab7b408a5dd8d1931 = L.marker(
+                [33.63, 126.93],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_d44731ad69b640ffa222c5af7987412a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cd194396bdc458698dddd34c94d54c8 = $(`<div id="html_2cd194396bdc458698dddd34c94d54c8" style="width: 100.0%; height: 100.0%;">제주 제주시 동북동쪽 40km 해역</div>`)[0];
+            popup_d44731ad69b640ffa222c5af7987412a.setContent(html_2cd194396bdc458698dddd34c94d54c8);
+        
+
+        marker_f39314e6f5fd4f6ab7b408a5dd8d1931.bindPopup(popup_d44731ad69b640ffa222c5af7987412a)
+        ;
+
+        
+    
+    
+            var marker_9324b7bd27314161abaa92d4260174d3 = L.marker(
+                [36.34, 127.87],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_8ad8dd1253054b409ef0239fb7d8ccfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b7e129bd40c465d90ebb024e065e6c7 = $(`<div id="html_3b7e129bd40c465d90ebb024e065e6c7" style="width: 100.0%; height: 100.0%;">충북 옥천군 동쪽 27km 지역</div>`)[0];
+            popup_8ad8dd1253054b409ef0239fb7d8ccfc.setContent(html_3b7e129bd40c465d90ebb024e065e6c7);
+        
+
+        marker_9324b7bd27314161abaa92d4260174d3.bindPopup(popup_8ad8dd1253054b409ef0239fb7d8ccfc)
+        ;
+
+        
+    
+    
+            var marker_0a9a8fb9f75d46bfadf107ecdfa159f4 = L.marker(
+                [38.01, 126.0],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_90f516356fa54eb19a04959383e90ebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f17f4cf062343128b8c98a355a4557f = $(`<div id="html_2f17f4cf062343128b8c98a355a4557f" style="width: 100.0%; height: 100.0%;">북한 황해남도 해주 동쪽 25km 지역</div>`)[0];
+            popup_90f516356fa54eb19a04959383e90ebd.setContent(html_2f17f4cf062343128b8c98a355a4557f);
+        
+
+        marker_0a9a8fb9f75d46bfadf107ecdfa159f4.bindPopup(popup_90f516356fa54eb19a04959383e90ebd)
+        ;
+
+        
+    
+    
+            var marker_87531268f5914702846768c638ab622e = L.marker(
+                [41.32, 129.09],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_92c861c20d08467888389a856f2f2198 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40d9436a19584ef2a17211601d2bb0ed = $(`<div id="html_40d9436a19584ef2a17211601d2bb0ed" style="width: 100.0%; height: 100.0%;">북한 함경북도 길주 북북서쪽 45km 지역</div>`)[0];
+            popup_92c861c20d08467888389a856f2f2198.setContent(html_40d9436a19584ef2a17211601d2bb0ed);
+        
+
+        marker_87531268f5914702846768c638ab622e.bindPopup(popup_92c861c20d08467888389a856f2f2198)
+        ;
+
+        
+    
+    
+            var marker_d7f12c7e8baf42b49fd5d9be5cc718d3 = L.marker(
+                [37.56, 125.2],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_d53609fdf41a4571b5fd7cbca751b90b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9ba54cc87e141a0b97d3e080c3796ac = $(`<div id="html_d9ba54cc87e141a0b97d3e080c3796ac" style="width: 100.0%; height: 100.0%;">북한 황해남도 옹진 남남서쪽 43km 해역</div>`)[0];
+            popup_d53609fdf41a4571b5fd7cbca751b90b.setContent(html_d9ba54cc87e141a0b97d3e080c3796ac);
+        
+
+        marker_d7f12c7e8baf42b49fd5d9be5cc718d3.bindPopup(popup_d53609fdf41a4571b5fd7cbca751b90b)
+        ;
+
+        
+    
+    
+            var marker_a869e82ed0334be9bcc4d588ad636759 = L.marker(
+                [33.62, 126.94],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_05735f3df45e4b66b07e8219c148a39b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3945bb09bd8a43bf9e9a94f0db9263de = $(`<div id="html_3945bb09bd8a43bf9e9a94f0db9263de" style="width: 100.0%; height: 100.0%;">제주 제주시 동북동쪽 40km 해역</div>`)[0];
+            popup_05735f3df45e4b66b07e8219c148a39b.setContent(html_3945bb09bd8a43bf9e9a94f0db9263de);
+        
+
+        marker_a869e82ed0334be9bcc4d588ad636759.bindPopup(popup_05735f3df45e4b66b07e8219c148a39b)
+        ;
+
+        
+    
+    
+            var marker_da17800254934378b1aa74bcdab86671 = L.marker(
+                [37.88, 129.54],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_ba1666cb093e40038287006bbaaac853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cedad31c74f43ccaf9222eab1de3251 = $(`<div id="html_0cedad31c74f43ccaf9222eab1de3251" style="width: 100.0%; height: 100.0%;">강원 동해시 북동쪽 54km 해역</div>`)[0];
+            popup_ba1666cb093e40038287006bbaaac853.setContent(html_0cedad31c74f43ccaf9222eab1de3251);
+        
+
+        marker_da17800254934378b1aa74bcdab86671.bindPopup(popup_ba1666cb093e40038287006bbaaac853)
+        ;
+
+        
+    
+    
+            var marker_6883138ae8ae49ddb37d7b160231819e = L.marker(
+                [36.86, 129.8],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_db3b6b7e068a4adc99ad349ef7bfc83e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66dd64f5bc264550814ddb07ed1c8b4d = $(`<div id="html_66dd64f5bc264550814ddb07ed1c8b4d" style="width: 100.0%; height: 100.0%;">경북 울진군 동남동쪽 38km 해역</div>`)[0];
+            popup_db3b6b7e068a4adc99ad349ef7bfc83e.setContent(html_66dd64f5bc264550814ddb07ed1c8b4d);
+        
+
+        marker_6883138ae8ae49ddb37d7b160231819e.bindPopup(popup_db3b6b7e068a4adc99ad349ef7bfc83e)
+        ;
+
+        
+    
+    
+            var marker_4f5a56e066724b50b72ab31ce3361790 = L.marker(
+                [33.79, 126.09],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_1bf183e145bb4a32b38f096401661b64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51dc15879f15425e95c065518d8c397c = $(`<div id="html_51dc15879f15425e95c065518d8c397c" style="width: 100.0%; height: 100.0%;">제주 제주시 북서쪽 52km 해역</div>`)[0];
+            popup_1bf183e145bb4a32b38f096401661b64.setContent(html_51dc15879f15425e95c065518d8c397c);
+        
+
+        marker_4f5a56e066724b50b72ab31ce3361790.bindPopup(popup_1bf183e145bb4a32b38f096401661b64)
+        ;
+
+        
+    
+    
+            var marker_422e5ed401354816be07521851fb567a = L.marker(
+                [37.42, 124.56],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_359140778bbc4648a1e9d5c7f1d29a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef5d88634a2c4fb2a07c048eeb4ced95 = $(`<div id="html_ef5d88634a2c4fb2a07c048eeb4ced95" style="width: 100.0%; height: 100.0%;">인천 옹진군 백령도 남쪽 60km 해역</div>`)[0];
+            popup_359140778bbc4648a1e9d5c7f1d29a4d.setContent(html_ef5d88634a2c4fb2a07c048eeb4ced95);
+        
+
+        marker_422e5ed401354816be07521851fb567a.bindPopup(popup_359140778bbc4648a1e9d5c7f1d29a4d)
+        ;
+
+        
+    
+    
+            var marker_2f07657dc9ae4ab9877bed924b7a12ce = L.marker(
+                [36.55, 129.54],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_e503ce9f77ba4091bc3ea60424ef3da2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f9b5f7d70d643c1b598d26ffb001eb3 = $(`<div id="html_7f9b5f7d70d643c1b598d26ffb001eb3" style="width: 100.0%; height: 100.0%;">경북 영덕군 북동쪽 22km 해역</div>`)[0];
+            popup_e503ce9f77ba4091bc3ea60424ef3da2.setContent(html_7f9b5f7d70d643c1b598d26ffb001eb3);
+        
+
+        marker_2f07657dc9ae4ab9877bed924b7a12ce.bindPopup(popup_e503ce9f77ba4091bc3ea60424ef3da2)
+        ;
+
+        
+    
+    
+            var marker_61fa574287084f06b0fd4718e2c33deb = L.marker(
+                [36.56, 129.64],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_826a6f88363e4b4d811eeee1d679c1f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dc9d60673074482a43e6a7db1c0bf9f = $(`<div id="html_9dc9d60673074482a43e6a7db1c0bf9f" style="width: 100.0%; height: 100.0%;">경북 영덕군 동북동쪽 29km 해역</div>`)[0];
+            popup_826a6f88363e4b4d811eeee1d679c1f1.setContent(html_9dc9d60673074482a43e6a7db1c0bf9f);
+        
+
+        marker_61fa574287084f06b0fd4718e2c33deb.bindPopup(popup_826a6f88363e4b4d811eeee1d679c1f1)
+        ;
+
+        
+    
+    
+            var marker_b50defee44d648629663eb491e245d5a = L.marker(
+                [33.35, 127.17],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_69c61a98f8944be09f965ffa068d14af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20c57b9ffec7432989ed2555710a2895 = $(`<div id="html_20c57b9ffec7432989ed2555710a2895" style="width: 100.0%; height: 100.0%;">제주 서귀포시 동쪽 58km 해역</div>`)[0];
+            popup_69c61a98f8944be09f965ffa068d14af.setContent(html_20c57b9ffec7432989ed2555710a2895);
+        
+
+        marker_b50defee44d648629663eb491e245d5a.bindPopup(popup_69c61a98f8944be09f965ffa068d14af)
+        ;
+
+        
+    
+    
+            var marker_7a5fbf87ade84c01888fb425227d045d = L.marker(
+                [39.15, 126.47],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_ad479a0d900443fa81aed954aa96a17d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4b98a58d94c49ea983d50932c37634d = $(`<div id="html_d4b98a58d94c49ea983d50932c37634d" style="width: 100.0%; height: 100.0%;">북한 평안남도 양덕 서남서쪽 16km 지역</div>`)[0];
+            popup_ad479a0d900443fa81aed954aa96a17d.setContent(html_d4b98a58d94c49ea983d50932c37634d);
+        
+
+        marker_7a5fbf87ade84c01888fb425227d045d.bindPopup(popup_ad479a0d900443fa81aed954aa96a17d)
+        ;
+
+        
+    
+    
+            var marker_c86fc3f554184f9db0a0f74cd78d79bf = L.marker(
+                [38.37, 126.3],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_361c580767054bbeac4b9c4721821f38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87b61b94637a4d308ff8da6ee478aa11 = $(`<div id="html_87b61b94637a4d308ff8da6ee478aa11" style="width: 100.0%; height: 100.0%;">북한 황해북도 평산 서북서쪽 9km 지역</div>`)[0];
+            popup_361c580767054bbeac4b9c4721821f38.setContent(html_87b61b94637a4d308ff8da6ee478aa11);
+        
+
+        marker_c86fc3f554184f9db0a0f74cd78d79bf.bindPopup(popup_361c580767054bbeac4b9c4721821f38)
+        ;
+
+        
+    
+    
+            var marker_c414b86df3664d56b17a386946aec9c2 = L.marker(
+                [35.76, 129.19],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_c0fe9a8c91004dad832db0f3d440243c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfe6d995204842338afccbe31ea9c896 = $(`<div id="html_cfe6d995204842338afccbe31ea9c896" style="width: 100.0%; height: 100.0%;">경북 경주시 남남서쪽 9km 지역</div>`)[0];
+            popup_c0fe9a8c91004dad832db0f3d440243c.setContent(html_cfe6d995204842338afccbe31ea9c896);
+        
+
+        marker_c414b86df3664d56b17a386946aec9c2.bindPopup(popup_c0fe9a8c91004dad832db0f3d440243c)
+        ;
+
+        
+    
+    
+            var marker_c03fa296b6804e309b1ec19e46e3d50c = L.marker(
+                [35.71, 126.36],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_7270d4a888224aff94befaf56360cf21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f666f8b0d00e48088e1b394755e40eea = $(`<div id="html_f666f8b0d00e48088e1b394755e40eea" style="width: 100.0%; height: 100.0%;">전북 부안군 서쪽 34km 해역</div>`)[0];
+            popup_7270d4a888224aff94befaf56360cf21.setContent(html_f666f8b0d00e48088e1b394755e40eea);
+        
+
+        marker_c03fa296b6804e309b1ec19e46e3d50c.bindPopup(popup_7270d4a888224aff94befaf56360cf21)
+        ;
+
+        
+    
+    
+            var marker_8e22e56106c9459f976f80f67605f03a = L.marker(
+                [38.81, 125.68],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_b8b728f1fba140deb7678f9e1fd20994 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28c661c383154f35b983d4a0b2cc518a = $(`<div id="html_28c661c383154f35b983d4a0b2cc518a" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 북북동쪽 9km 지역</div>`)[0];
+            popup_b8b728f1fba140deb7678f9e1fd20994.setContent(html_28c661c383154f35b983d4a0b2cc518a);
+        
+
+        marker_8e22e56106c9459f976f80f67605f03a.bindPopup(popup_b8b728f1fba140deb7678f9e1fd20994)
+        ;
+
+        
+    
+    
+            var marker_1ff8d3c0f8844e8496eae96f6ef42a70 = L.marker(
+                [38.81, 125.71],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_eb10d9df941d468c938335c079b55ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_004878e5f09f476591ff1c621ae98fd3 = $(`<div id="html_004878e5f09f476591ff1c621ae98fd3" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 북동쪽 10km 지역</div>`)[0];
+            popup_eb10d9df941d468c938335c079b55ae1.setContent(html_004878e5f09f476591ff1c621ae98fd3);
+        
+
+        marker_1ff8d3c0f8844e8496eae96f6ef42a70.bindPopup(popup_eb10d9df941d468c938335c079b55ae1)
+        ;
+
+        
+    
+    
+            var marker_36d7b2deeb7146a381d571526b356e9f = L.marker(
+                [38.81, 125.7],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_2fd4d30d6d90499ba759fbd1a18581ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c12fddf24b4645daa46756098da57488 = $(`<div id="html_c12fddf24b4645daa46756098da57488" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 북동쪽 10km 지역</div>`)[0];
+            popup_2fd4d30d6d90499ba759fbd1a18581ce.setContent(html_c12fddf24b4645daa46756098da57488);
+        
+
+        marker_36d7b2deeb7146a381d571526b356e9f.bindPopup(popup_2fd4d30d6d90499ba759fbd1a18581ce)
+        ;
+
+        
+    
+    
+            var marker_aa1a89b3f47141448044b4b57e34852c = L.marker(
+                [38.81, 125.7],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_020ed4796415441b8a868f5f09a84ffd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eec93819536e44579212e9933e6395e6 = $(`<div id="html_eec93819536e44579212e9933e6395e6" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 북동쪽 10km 지역</div>`)[0];
+            popup_020ed4796415441b8a868f5f09a84ffd.setContent(html_eec93819536e44579212e9933e6395e6);
+        
+
+        marker_aa1a89b3f47141448044b4b57e34852c.bindPopup(popup_020ed4796415441b8a868f5f09a84ffd)
+        ;
+
+        
+    
+    
+            var marker_202bd9ace5de4dfea7a37d9aa3e89703 = L.marker(
+                [38.75, 125.73],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_58b372f7c2c44d0f97cfc5fbce839563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3c910c1adf9448ca8b352aca63fbe02 = $(`<div id="html_b3c910c1adf9448ca8b352aca63fbe02" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 동쪽 8km 지역</div>`)[0];
+            popup_58b372f7c2c44d0f97cfc5fbce839563.setContent(html_b3c910c1adf9448ca8b352aca63fbe02);
+        
+
+        marker_202bd9ace5de4dfea7a37d9aa3e89703.bindPopup(popup_58b372f7c2c44d0f97cfc5fbce839563)
+        ;
+
+        
+    
+    
+            var marker_724a104a7c6e4e6eb3d513951265d4ea = L.marker(
+                [36.69, 128.41],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_56ce4e2416234f4287529e2f50cf50e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a40b264fd764ee38c51a0cb435dac87 = $(`<div id="html_3a40b264fd764ee38c51a0cb435dac87" style="width: 100.0%; height: 100.0%;">경북 예천군 북서쪽 5km 지역</div>`)[0];
+            popup_56ce4e2416234f4287529e2f50cf50e1.setContent(html_3a40b264fd764ee38c51a0cb435dac87);
+        
+
+        marker_724a104a7c6e4e6eb3d513951265d4ea.bindPopup(popup_56ce4e2416234f4287529e2f50cf50e1)
+        ;
+
+        
+    
+    
+            var marker_73211a7227954583bebefca1e00a9d30 = L.marker(
+                [38.8, 125.69],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_13240cb214b643a6897cab69151a236d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bebfad5ce4c347d4829ff2cfae2565e5 = $(`<div id="html_bebfad5ce4c347d4829ff2cfae2565e5" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 북동쪽 9km 지역</div>`)[0];
+            popup_13240cb214b643a6897cab69151a236d.setContent(html_bebfad5ce4c347d4829ff2cfae2565e5);
+        
+
+        marker_73211a7227954583bebefca1e00a9d30.bindPopup(popup_13240cb214b643a6897cab69151a236d)
+        ;
+
+        
+    
+    
+            var marker_800e2aad8d624b8f87a08f793c6a924b = L.marker(
+                [38.77, 125.7],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_b3b216c328db415da910fc225ceec69a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d2081b18bab4281afdd8ee0e046c0fb = $(`<div id="html_0d2081b18bab4281afdd8ee0e046c0fb" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 북동쪽 7km 지역</div>`)[0];
+            popup_b3b216c328db415da910fc225ceec69a.setContent(html_0d2081b18bab4281afdd8ee0e046c0fb);
+        
+
+        marker_800e2aad8d624b8f87a08f793c6a924b.bindPopup(popup_b3b216c328db415da910fc225ceec69a)
+        ;
+
+        
+    
+    
+            var marker_7efd3360666844448355218c5f001a98 = L.marker(
+                [38.75, 125.71],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_02d670acae244e8d986a2b7617f6c373 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06af57dad88348018e174e7e4a3f7253 = $(`<div id="html_06af57dad88348018e174e7e4a3f7253" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 동북동쪽 7km 지역</div>`)[0];
+            popup_02d670acae244e8d986a2b7617f6c373.setContent(html_06af57dad88348018e174e7e4a3f7253);
+        
+
+        marker_7efd3360666844448355218c5f001a98.bindPopup(popup_02d670acae244e8d986a2b7617f6c373)
+        ;
+
+        
+    
+    
+            var marker_ccd855b311c74cbc8116eb579231a9d5 = L.marker(
+                [35.88, 129.69],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_d9c5e01b0caf45318d9582fb876252ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b984071014244e74bc6e053d932bb140 = $(`<div id="html_b984071014244e74bc6e053d932bb140" style="width: 100.0%; height: 100.0%;">경북 포항시 남구 동남동쪽 33km 해역</div>`)[0];
+            popup_d9c5e01b0caf45318d9582fb876252ac.setContent(html_b984071014244e74bc6e053d932bb140);
+        
+
+        marker_ccd855b311c74cbc8116eb579231a9d5.bindPopup(popup_d9c5e01b0caf45318d9582fb876252ac)
+        ;
+
+        
+    
+    
+            var marker_ab578cc01bcf4b90889af9e07ab1b691 = L.marker(
+                [37.89, 129.55],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_937c8c3dfb2449a3a2753ef902d7b63d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62161e69c28745cabe6e54a2030c5f27 = $(`<div id="html_62161e69c28745cabe6e54a2030c5f27" style="width: 100.0%; height: 100.0%;">강원 동해시 북동쪽 56km 해역</div>`)[0];
+            popup_937c8c3dfb2449a3a2753ef902d7b63d.setContent(html_62161e69c28745cabe6e54a2030c5f27);
+        
+
+        marker_ab578cc01bcf4b90889af9e07ab1b691.bindPopup(popup_937c8c3dfb2449a3a2753ef902d7b63d)
+        ;
+
+        
+    
+    
+            var marker_470e9fcdaa864f2db3b63ff810dd0945 = L.marker(
+                [38.7, 125.73],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_db5f7e78905b4c37aebc6880e7e26382 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e2e74359c06423bb26df0d3c96c40a2 = $(`<div id="html_2e2e74359c06423bb26df0d3c96c40a2" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 동남동쪽 9km 지역</div>`)[0];
+            popup_db5f7e78905b4c37aebc6880e7e26382.setContent(html_2e2e74359c06423bb26df0d3c96c40a2);
+        
+
+        marker_470e9fcdaa864f2db3b63ff810dd0945.bindPopup(popup_db5f7e78905b4c37aebc6880e7e26382)
+        ;
+
+        
+    
+    
+            var marker_f6a0802f29e04fbbbefcef96e796bac6 = L.marker(
+                [36.33, 128.08],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_bfc8b18706cb4f62af49d67f0dbc2409 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf55da476ef74ae4914bc4b714870d1f = $(`<div id="html_cf55da476ef74ae4914bc4b714870d1f" style="width: 100.0%; height: 100.0%;">경북 상주시 남서쪽 11km 지역</div>`)[0];
+            popup_bfc8b18706cb4f62af49d67f0dbc2409.setContent(html_cf55da476ef74ae4914bc4b714870d1f);
+        
+
+        marker_f6a0802f29e04fbbbefcef96e796bac6.bindPopup(popup_bfc8b18706cb4f62af49d67f0dbc2409)
+        ;
+
+        
+    
+    
+            var marker_c4f69d98468343e18c08f5b7cf5b4ff2 = L.marker(
+                [36.5, 128.1],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_6ba829263fb149478e4fe138046c6053 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b020548ea84407a9ce7b910692f0a8a = $(`<div id="html_6b020548ea84407a9ce7b910692f0a8a" style="width: 100.0%; height: 100.0%;">경북 상주시 북북서쪽 11km 지역</div>`)[0];
+            popup_6ba829263fb149478e4fe138046c6053.setContent(html_6b020548ea84407a9ce7b910692f0a8a);
+        
+
+        marker_c4f69d98468343e18c08f5b7cf5b4ff2.bindPopup(popup_6ba829263fb149478e4fe138046c6053)
+        ;
+
+        
+    
+    
+            var marker_491435919da241ffa2723d8254544ae0 = L.marker(
+                [35.82, 125.56],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_aae870d5a4534cb5bb6b1c21578f79af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_723c265cb8f44eb483dbf39c67041f14 = $(`<div id="html_723c265cb8f44eb483dbf39c67041f14" style="width: 100.0%; height: 100.0%;">전북 군산시 어청도 남서쪽 50km 해역</div>`)[0];
+            popup_aae870d5a4534cb5bb6b1c21578f79af.setContent(html_723c265cb8f44eb483dbf39c67041f14);
+        
+
+        marker_491435919da241ffa2723d8254544ae0.bindPopup(popup_aae870d5a4534cb5bb6b1c21578f79af)
+        ;
+
+        
+    
+    
+            var marker_db9b0a326ce34eaab38ebcc1460e1280 = L.marker(
+                [37.35, 129.84],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_45283bac32a345a69c361bfcd61e1e0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a23541150d1e4121b510828e38080206 = $(`<div id="html_a23541150d1e4121b510828e38080206" style="width: 100.0%; height: 100.0%;">경북 울진군 북동쪽 56km 해역</div>`)[0];
+            popup_45283bac32a345a69c361bfcd61e1e0e.setContent(html_a23541150d1e4121b510828e38080206);
+        
+
+        marker_db9b0a326ce34eaab38ebcc1460e1280.bindPopup(popup_45283bac32a345a69c361bfcd61e1e0e)
+        ;
+
+        
+    
+    
+            var marker_c34b33bc56fb4585baf1d68795073c2f = L.marker(
+                [35.0, 128.3],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_f142131017794a70a074993d9fd90a53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_114a816c81564a10891eff50041442c4 = $(`<div id="html_114a816c81564a10891eff50041442c4" style="width: 100.0%; height: 100.0%;">경남 고성군 북서쪽 4km 지역</div>`)[0];
+            popup_f142131017794a70a074993d9fd90a53.setContent(html_114a816c81564a10891eff50041442c4);
+        
+
+        marker_c34b33bc56fb4585baf1d68795073c2f.bindPopup(popup_f142131017794a70a074993d9fd90a53)
+        ;
+
+        
+    
+    
+            var marker_c0b4a4df552f4d2db5fca3f1b9c10c5a = L.marker(
+                [39.31, 124.71],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_e9d4a35f8dfa4def8eb3b5f1e8b75b33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51db1cc377c84729b14400c31ef4ffd7 = $(`<div id="html_51db1cc377c84729b14400c31ef4ffd7" style="width: 100.0%; height: 100.0%;">북한 평안북도 철산 남쪽 51km 해역</div>`)[0];
+            popup_e9d4a35f8dfa4def8eb3b5f1e8b75b33.setContent(html_51db1cc377c84729b14400c31ef4ffd7);
+        
+
+        marker_c0b4a4df552f4d2db5fca3f1b9c10c5a.bindPopup(popup_e9d4a35f8dfa4def8eb3b5f1e8b75b33)
+        ;
+
+        
+    
+    
+            var marker_624d054b787f40b594b1bc4f1c92312c = L.marker(
+                [33.78, 126.92],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_51d7fe5388734758926449208293a976 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc2cc13ef72e4d90a6f75f273adf0995 = $(`<div id="html_bc2cc13ef72e4d90a6f75f273adf0995" style="width: 100.0%; height: 100.0%;">전남 여수시 거문도 남서쪽 45km 해역</div>`)[0];
+            popup_51d7fe5388734758926449208293a976.setContent(html_bc2cc13ef72e4d90a6f75f273adf0995);
+        
+
+        marker_624d054b787f40b594b1bc4f1c92312c.bindPopup(popup_51d7fe5388734758926449208293a976)
+        ;
+
+        
+    
+    
+            var marker_9c7d08f6f6d44ab0aa398b38e62e7431 = L.marker(
+                [37.97, 124.63],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_c13a94bb3fd04196a5fb6fbc9491a817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce2d0d5fe6d3424998fea8e78ee1317a = $(`<div id="html_ce2d0d5fe6d3424998fea8e78ee1317a" style="width: 100.0%; height: 100.0%;">인천 옹진군 백령도 서북서쪽 5km 지역</div>`)[0];
+            popup_c13a94bb3fd04196a5fb6fbc9491a817.setContent(html_ce2d0d5fe6d3424998fea8e78ee1317a);
+        
+
+        marker_9c7d08f6f6d44ab0aa398b38e62e7431.bindPopup(popup_c13a94bb3fd04196a5fb6fbc9491a817)
+        ;
+
+        
+    
+    
+            var marker_ac4dcd45b21d47e09b32fde01a3b2916 = L.marker(
+                [33.57, 124.81],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_210fdb1f9073405ab96604219f742840 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54d790fec9d44830a2f07ed7898c6e9b = $(`<div id="html_54d790fec9d44830a2f07ed7898c6e9b" style="width: 100.0%; height: 100.0%;">전남 신안군 흑산도 남남서쪽 135km 해역</div>`)[0];
+            popup_210fdb1f9073405ab96604219f742840.setContent(html_54d790fec9d44830a2f07ed7898c6e9b);
+        
+
+        marker_ac4dcd45b21d47e09b32fde01a3b2916.bindPopup(popup_210fdb1f9073405ab96604219f742840)
+        ;
+
+        
+    
+    
+            var marker_49e736f9590241918553b5e05085fd69 = L.marker(
+                [37.96, 124.69],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_76a5a06edbff4993a0cca78d52d2c7cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f9e3184878044dda4ac8b8d28eb70c4 = $(`<div id="html_6f9e3184878044dda4ac8b8d28eb70c4" style="width: 100.0%; height: 100.0%;">인천 옹진군 백령도 북동쪽 1km 지역</div>`)[0];
+            popup_76a5a06edbff4993a0cca78d52d2c7cd.setContent(html_6f9e3184878044dda4ac8b8d28eb70c4);
+        
+
+        marker_49e736f9590241918553b5e05085fd69.bindPopup(popup_76a5a06edbff4993a0cca78d52d2c7cd)
+        ;
+
+        
+    
+    
+            var marker_66e7ee6437424a84a247d53e463fcd46 = L.marker(
+                [36.24, 130.01],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_e6a444ce8c024c0e900a4c5f5a3b087c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_196c0e17b13a4a999d29babb67538483 = $(`<div id="html_196c0e17b13a4a999d29babb67538483" style="width: 100.0%; height: 100.0%;">경북 영덕군 동남동쪽 61km 해역</div>`)[0];
+            popup_e6a444ce8c024c0e900a4c5f5a3b087c.setContent(html_196c0e17b13a4a999d29babb67538483);
+        
+
+        marker_66e7ee6437424a84a247d53e463fcd46.bindPopup(popup_e6a444ce8c024c0e900a4c5f5a3b087c)
+        ;
+
+        
+    
+    
+            var marker_62782390e7554a128f1f6360abe66ef3 = L.marker(
+                [39.51, 126.1],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_e4272839f6d6443fa55799eca1c81814 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c023a3db3f24a80a58c283cce1d382c = $(`<div id="html_2c023a3db3f24a80a58c283cce1d382c" style="width: 100.0%; height: 100.0%;">북한 평안남도 개천 남동쪽 27km 지역</div>`)[0];
+            popup_e4272839f6d6443fa55799eca1c81814.setContent(html_2c023a3db3f24a80a58c283cce1d382c);
+        
+
+        marker_62782390e7554a128f1f6360abe66ef3.bindPopup(popup_e4272839f6d6443fa55799eca1c81814)
+        ;
+
+        
+    
+    
+            var marker_7e1407e1c71a486587e4ca5e6ba43730 = L.marker(
+                [35.48, 129.54],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_5b927a1cd9784da38345f667a03c67e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a74b87d7ba8486995ae307912050f0a = $(`<div id="html_5a74b87d7ba8486995ae307912050f0a" style="width: 100.0%; height: 100.0%;">울산 동구 동남동쪽 12km 해역</div>`)[0];
+            popup_5b927a1cd9784da38345f667a03c67e9.setContent(html_5a74b87d7ba8486995ae307912050f0a);
+        
+
+        marker_7e1407e1c71a486587e4ca5e6ba43730.bindPopup(popup_5b927a1cd9784da38345f667a03c67e9)
+        ;
+
+        
+    
+    
+            var marker_7422dd44b9134bf9a269e3b1ca1cd14e = L.marker(
+                [38.13, 127.09],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_7e91e0fc46154facaf2e1b9f2e4ccdf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aeaf600d6de4d39a2516e82e979c0e1 = $(`<div id="html_6aeaf600d6de4d39a2516e82e979c0e1" style="width: 100.0%; height: 100.0%;">경기 연천군 북북동쪽 4km 지역</div>`)[0];
+            popup_7e91e0fc46154facaf2e1b9f2e4ccdf0.setContent(html_6aeaf600d6de4d39a2516e82e979c0e1);
+        
+
+        marker_7422dd44b9134bf9a269e3b1ca1cd14e.bindPopup(popup_7e91e0fc46154facaf2e1b9f2e4ccdf0)
+        ;
+
+        
+    
+    
+            var marker_e8fdb930c05a4d39be163d2e37c7e481 = L.marker(
+                [33.65, 124.99],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_8ad71f5a89d843279dfccc6481971b7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7533773635134d1ca444ab2315eb4f22 = $(`<div id="html_7533773635134d1ca444ab2315eb4f22" style="width: 100.0%; height: 100.0%;">전남 신안군 흑산도 남남서쪽 120km 해역</div>`)[0];
+            popup_8ad71f5a89d843279dfccc6481971b7f.setContent(html_7533773635134d1ca444ab2315eb4f22);
+        
+
+        marker_e8fdb930c05a4d39be163d2e37c7e481.bindPopup(popup_8ad71f5a89d843279dfccc6481971b7f)
+        ;
+
+        
+    
+    
+            var marker_e1d2ffdad8594fda81f5e474d7b46e31 = L.marker(
+                [38.67, 127.17],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_9b953151116f4f64954bde3eda050fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_278f0ae3d7fe40ea8704d7f552f93fef = $(`<div id="html_278f0ae3d7fe40ea8704d7f552f93fef" style="width: 100.0%; height: 100.0%;">북한 강원 평강 북북서쪽 31km 지역</div>`)[0];
+            popup_9b953151116f4f64954bde3eda050fb5.setContent(html_278f0ae3d7fe40ea8704d7f552f93fef);
+        
+
+        marker_e1d2ffdad8594fda81f5e474d7b46e31.bindPopup(popup_9b953151116f4f64954bde3eda050fb5)
+        ;
+
+        
+    
+    
+            var marker_8522964c7f8a415bb89f42689bdeec86 = L.marker(
+                [34.16, 125.16],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_409e9467e0fa4711ab89b50926f47e5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4494d15efde542089403ce7ac1077705 = $(`<div id="html_4494d15efde542089403ce7ac1077705" style="width: 100.0%; height: 100.0%;">전남 신안군 흑산도 남남서쪽 62km 해역</div>`)[0];
+            popup_409e9467e0fa4711ab89b50926f47e5d.setContent(html_4494d15efde542089403ce7ac1077705);
+        
+
+        marker_8522964c7f8a415bb89f42689bdeec86.bindPopup(popup_409e9467e0fa4711ab89b50926f47e5d)
+        ;
+
+        
+    
+    
+            var marker_32652801f85d4edeae4303c50fb8c587 = L.marker(
+                [36.09, 129.33],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_dd28bf8489fd4d018d279f1de88330e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ec79da8c1945a9bdf4d9a7fafe4a2e = $(`<div id="html_e3ec79da8c1945a9bdf4d9a7fafe4a2e" style="width: 100.0%; height: 100.0%;">경북 포항시 북구 북북서쪽 6km 지역</div>`)[0];
+            popup_dd28bf8489fd4d018d279f1de88330e3.setContent(html_e3ec79da8c1945a9bdf4d9a7fafe4a2e);
+        
+
+        marker_32652801f85d4edeae4303c50fb8c587.bindPopup(popup_dd28bf8489fd4d018d279f1de88330e3)
+        ;
+
+        
+    
+    
+            var marker_f26e9e3b69f1401781badf77da5a5c47 = L.marker(
+                [38.79, 125.78],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_bcf20e9f049545669f91447d8960575c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31c255f298dc432b8c00c7f58117ec5b = $(`<div id="html_31c255f298dc432b8c00c7f58117ec5b" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 동북동쪽 14km 지역</div>`)[0];
+            popup_bcf20e9f049545669f91447d8960575c.setContent(html_31c255f298dc432b8c00c7f58117ec5b);
+        
+
+        marker_f26e9e3b69f1401781badf77da5a5c47.bindPopup(popup_bcf20e9f049545669f91447d8960575c)
+        ;
+
+        
+    
+    
+            var marker_482395451e6e41bb9740441a5a1f86bb = L.marker(
+                [35.47, 128.86],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_8d26eb12b40e41149c24fda259a054fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97e5b928536b43ca8e09af4ef2655bb4 = $(`<div id="html_97e5b928536b43ca8e09af4ef2655bb4" style="width: 100.0%; height: 100.0%;">경남 밀양시 동남동쪽 11km 지역</div>`)[0];
+            popup_8d26eb12b40e41149c24fda259a054fe.setContent(html_97e5b928536b43ca8e09af4ef2655bb4);
+        
+
+        marker_482395451e6e41bb9740441a5a1f86bb.bindPopup(popup_8d26eb12b40e41149c24fda259a054fe)
+        ;
+
+        
+    
+    
+            var marker_960ec5f186874e68ac1d9818f80ea285 = L.marker(
+                [35.18, 129.77],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_0018f52c49384ffd81ca8dabdfa46502 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fb64d239d6f447594387460fdb2800e = $(`<div id="html_1fb64d239d6f447594387460fdb2800e" style="width: 100.0%; height: 100.0%;">울산 동구 남동쪽 48km 해역</div>`)[0];
+            popup_0018f52c49384ffd81ca8dabdfa46502.setContent(html_1fb64d239d6f447594387460fdb2800e);
+        
+
+        marker_960ec5f186874e68ac1d9818f80ea285.bindPopup(popup_0018f52c49384ffd81ca8dabdfa46502)
+        ;
+
+        
+    
+    
+            var marker_1a66b988c4c74e948b33bdb39c3d9d72 = L.marker(
+                [36.53, 129.65],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_2bd57a69427f49e79e5a181548f0ca81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aa242d3bf4c420b9f62f7b3e7781f13 = $(`<div id="html_9aa242d3bf4c420b9f62f7b3e7781f13" style="width: 100.0%; height: 100.0%;">경북 영덕군 동북동쪽 28km 해역</div>`)[0];
+            popup_2bd57a69427f49e79e5a181548f0ca81.setContent(html_9aa242d3bf4c420b9f62f7b3e7781f13);
+        
+
+        marker_1a66b988c4c74e948b33bdb39c3d9d72.bindPopup(popup_2bd57a69427f49e79e5a181548f0ca81)
+        ;
+
+        
+    
+    
+            var marker_dd1adc3a5d124e9ba2a8e978e2b68615 = L.marker(
+                [38.77, 125.71],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_70a6320a5d334eafb01d60ac8b6f721b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f096884100c4947b395f11312aea3ba = $(`<div id="html_9f096884100c4947b395f11312aea3ba" style="width: 100.0%; height: 100.0%;">북한 황해북도 송림 동북동쪽 8km 지역</div>`)[0];
+            popup_70a6320a5d334eafb01d60ac8b6f721b.setContent(html_9f096884100c4947b395f11312aea3ba);
+        
+
+        marker_dd1adc3a5d124e9ba2a8e978e2b68615.bindPopup(popup_70a6320a5d334eafb01d60ac8b6f721b)
+        ;
+
+        
+    
+    
+            var marker_957d8725f8e84d58a891a4503c8c36b7 = L.marker(
+                [33.41, 125.13],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_60ff3485470748758b667fe86fc2e608 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c221cedb2d340e596d652988a3a57fd = $(`<div id="html_8c221cedb2d340e596d652988a3a57fd" style="width: 100.0%; height: 100.0%;">제주 제주시 서쪽 130km 해역</div>`)[0];
+            popup_60ff3485470748758b667fe86fc2e608.setContent(html_8c221cedb2d340e596d652988a3a57fd);
+        
+
+        marker_957d8725f8e84d58a891a4503c8c36b7.bindPopup(popup_60ff3485470748758b667fe86fc2e608)
+        ;
+
+        
+    
+    
+            var marker_8bc183fc16ea4c90ae3b3a504ec24013 = L.marker(
+                [35.41, 128.49],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_bf3d6f16369345fb88211d3f77d500af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8262f6bdc27142f78e683c6d42d63c31 = $(`<div id="html_8262f6bdc27142f78e683c6d42d63c31" style="width: 100.0%; height: 100.0%;">경남 창녕군 남쪽 15km 지역</div>`)[0];
+            popup_bf3d6f16369345fb88211d3f77d500af.setContent(html_8262f6bdc27142f78e683c6d42d63c31);
+        
+
+        marker_8bc183fc16ea4c90ae3b3a504ec24013.bindPopup(popup_bf3d6f16369345fb88211d3f77d500af)
+        ;
+
+        
+    
+    
+            var marker_a3b74e55831c425cbeb55e6bb9342042 = L.marker(
+                [36.68, 128.61],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_509fc22aa3ee44459a904e69fed10f24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b34c8697b3194889b0da56c7f06ba9fd = $(`<div id="html_b34c8697b3194889b0da56c7f06ba9fd" style="width: 100.0%; height: 100.0%;">경북 안동시 북서쪽 16km 지역</div>`)[0];
+            popup_509fc22aa3ee44459a904e69fed10f24.setContent(html_b34c8697b3194889b0da56c7f06ba9fd);
+        
+
+        marker_a3b74e55831c425cbeb55e6bb9342042.bindPopup(popup_509fc22aa3ee44459a904e69fed10f24)
+        ;
+
+        
+    
+    
+            var marker_d7641b75c8234b43bf8b5dd7b13b7efb = L.marker(
+                [37.24, 126.11],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_634d46fdfaf24f7a89a555d0940cd542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a767f154dd040e596185a8ee8e10446 = $(`<div id="html_9a767f154dd040e596185a8ee8e10446" style="width: 100.0%; height: 100.0%;">인천 옹진군 서남서쪽 52km 지역</div>`)[0];
+            popup_634d46fdfaf24f7a89a555d0940cd542.setContent(html_9a767f154dd040e596185a8ee8e10446);
+        
+
+        marker_d7641b75c8234b43bf8b5dd7b13b7efb.bindPopup(popup_634d46fdfaf24f7a89a555d0940cd542)
+        ;
+
+        
+    
+    
+            var marker_2cd913f39342418ca3f2372a77f96cad = L.marker(
+                [37.62, 124.65],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_621f8e297da84be0b3dae652e4c49503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89f94eb163fd4a5ca6fc425f0aaeaa1e = $(`<div id="html_89f94eb163fd4a5ca6fc425f0aaeaa1e" style="width: 100.0%; height: 100.0%;">인천 옹진군 백령도 남쪽 37km 해역</div>`)[0];
+            popup_621f8e297da84be0b3dae652e4c49503.setContent(html_89f94eb163fd4a5ca6fc425f0aaeaa1e);
+        
+
+        marker_2cd913f39342418ca3f2372a77f96cad.bindPopup(popup_621f8e297da84be0b3dae652e4c49503)
+        ;
+
+        
+    
+    
+            var marker_c413017beeab4c45b03a57adee3e3015 = L.marker(
+                [35.13, 124.93],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_8e9fdbca7bb847d0b853026379216d86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74bb5ec25cac4fc2983a1dee6e8e2093 = $(`<div id="html_74bb5ec25cac4fc2983a1dee6e8e2093" style="width: 100.0%; height: 100.0%;">전남 신안군 흑산도 북서쪽 73km 해역</div>`)[0];
+            popup_8e9fdbca7bb847d0b853026379216d86.setContent(html_74bb5ec25cac4fc2983a1dee6e8e2093);
+        
+
+        marker_c413017beeab4c45b03a57adee3e3015.bindPopup(popup_8e9fdbca7bb847d0b853026379216d86)
+        ;
+
+        
+    
+    
+            var marker_05abb8e7257b4eb3812e82aafae9b099 = L.marker(
+                [33.83, 128.09],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_f357a539bb824d0daf000b9e98b3d8d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52eef1f256ca4903932bcef170c18f61 = $(`<div id="html_52eef1f256ca4903932bcef170c18f61" style="width: 100.0%; height: 100.0%;">전남 여수시 거문도 동남동쪽 75km 해역</div>`)[0];
+            popup_f357a539bb824d0daf000b9e98b3d8d9.setContent(html_52eef1f256ca4903932bcef170c18f61);
+        
+
+        marker_05abb8e7257b4eb3812e82aafae9b099.bindPopup(popup_f357a539bb824d0daf000b9e98b3d8d9)
+        ;
+
+        
+    
+    
+            var marker_78847544d20e4059904db1c89195a2b4 = L.marker(
+                [36.86, 129.79],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_aec5bc9b367e45e9ba2967d8a33f1d97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af3e4edb1c994214a0ca17e23fa39787 = $(`<div id="html_af3e4edb1c994214a0ca17e23fa39787" style="width: 100.0%; height: 100.0%;">경북 울진군 동남동쪽 38km 해역</div>`)[0];
+            popup_aec5bc9b367e45e9ba2967d8a33f1d97.setContent(html_af3e4edb1c994214a0ca17e23fa39787);
+        
+
+        marker_78847544d20e4059904db1c89195a2b4.bindPopup(popup_aec5bc9b367e45e9ba2967d8a33f1d97)
+        ;
+
+        
+    
+    
+            var marker_2e6e045136d847a292de0861d6e91433 = L.marker(
+                [33.94, 124.7],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_d2d13e4b67ea4ea885cea894c5a9cf23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52faa1c708df46ad86a8c47d9f0a5267 = $(`<div id="html_52faa1c708df46ad86a8c47d9f0a5267" style="width: 100.0%; height: 100.0%;">전남 신안군 흑산도 남서쪽 106km 해역</div>`)[0];
+            popup_d2d13e4b67ea4ea885cea894c5a9cf23.setContent(html_52faa1c708df46ad86a8c47d9f0a5267);
+        
+
+        marker_2e6e045136d847a292de0861d6e91433.bindPopup(popup_d2d13e4b67ea4ea885cea894c5a9cf23)
+        ;
+
+        
+    
+    
+            var marker_c1f7b55876a4496fa3095b3c9f74e8a4 = L.marker(
+                [35.12, 124.96],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_ab0fa2520b364a89b7cb1e05b6d3a4fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbaeaa6cfaa54baab21620ba64560bfc = $(`<div id="html_fbaeaa6cfaa54baab21620ba64560bfc" style="width: 100.0%; height: 100.0%;">전남 신안군 흑산도 북서쪽 70km 해역</div>`)[0];
+            popup_ab0fa2520b364a89b7cb1e05b6d3a4fe.setContent(html_fbaeaa6cfaa54baab21620ba64560bfc);
+        
+
+        marker_c1f7b55876a4496fa3095b3c9f74e8a4.bindPopup(popup_ab0fa2520b364a89b7cb1e05b6d3a4fe)
+        ;
+
+        
+    
+    
+            var marker_243b9cbecd3a451f93f7e3ca90aa8985 = L.marker(
+                [33.55, 126.92],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_ddb30879ef1a4504a62b11fec3cf3551 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c444c02937654f469d4927ecdc666b20 = $(`<div id="html_c444c02937654f469d4927ecdc666b20" style="width: 100.0%; height: 100.0%;">제주 제주시 동쪽 36km 해역</div>`)[0];
+            popup_ddb30879ef1a4504a62b11fec3cf3551.setContent(html_c444c02937654f469d4927ecdc666b20);
+        
+
+        marker_243b9cbecd3a451f93f7e3ca90aa8985.bindPopup(popup_ddb30879ef1a4504a62b11fec3cf3551)
+        ;
+
+        
+    
+    
+            var marker_17c1a94d91ad4a9792fb8a0705ab2be4 = L.marker(
+                [37.16, 126.22],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_30916da7d3934409aa07d92726b5f93e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6707d09c9d1f4013bd38406e8bcc687a = $(`<div id="html_6707d09c9d1f4013bd38406e8bcc687a" style="width: 100.0%; height: 100.0%;">충남 서산시 북북서쪽 46km 해역</div>`)[0];
+            popup_30916da7d3934409aa07d92726b5f93e.setContent(html_6707d09c9d1f4013bd38406e8bcc687a);
+        
+
+        marker_17c1a94d91ad4a9792fb8a0705ab2be4.bindPopup(popup_30916da7d3934409aa07d92726b5f93e)
+        ;
+
+        
+    
+    
+            var marker_4c31ea9919304ffa82aa6903915fd4bc = L.marker(
+                [38.01, 126.0],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_8040b0c1868d471a824c0cd8ce188200 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d22e6b7201514b49bc2181282281723f = $(`<div id="html_d22e6b7201514b49bc2181282281723f" style="width: 100.0%; height: 100.0%;">북한 황해남도 해주 동쪽 25km 지역</div>`)[0];
+            popup_8040b0c1868d471a824c0cd8ce188200.setContent(html_d22e6b7201514b49bc2181282281723f);
+        
+
+        marker_4c31ea9919304ffa82aa6903915fd4bc.bindPopup(popup_8040b0c1868d471a824c0cd8ce188200)
+        ;
+
+        
+    
+    
+            var marker_3ef6eacfd55c4f70baeeedf88e5ea95e = L.marker(
+                [33.29, 127.16],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_365cdea4d09249549ff052d0c6aecc5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48d3ca8eba4d4b5297311c36d23e4bfb = $(`<div id="html_48d3ca8eba4d4b5297311c36d23e4bfb" style="width: 100.0%; height: 100.0%;">제주 서귀포시 동쪽 56km 해역</div>`)[0];
+            popup_365cdea4d09249549ff052d0c6aecc5c.setContent(html_48d3ca8eba4d4b5297311c36d23e4bfb);
+        
+
+        marker_3ef6eacfd55c4f70baeeedf88e5ea95e.bindPopup(popup_365cdea4d09249549ff052d0c6aecc5c)
+        ;
+
+        
+    
+    
+            var marker_42905aefecf84749a6438837126a8b9f = L.marker(
+                [33.33, 127.16],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_be43ed72b51f4c59a537e6460a8a081d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82dc2b5b12ca4d6ba56187d3f8be3af1 = $(`<div id="html_82dc2b5b12ca4d6ba56187d3f8be3af1" style="width: 100.0%; height: 100.0%;">제주 서귀포시 동쪽 56km 해역</div>`)[0];
+            popup_be43ed72b51f4c59a537e6460a8a081d.setContent(html_82dc2b5b12ca4d6ba56187d3f8be3af1);
+        
+
+        marker_42905aefecf84749a6438837126a8b9f.bindPopup(popup_be43ed72b51f4c59a537e6460a8a081d)
+        ;
+
+        
+    
+    
+            var marker_f2c35da994d84639964ba9ed64e2cd01 = L.marker(
+                [35.56, 128.9],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_216bb1b20baf4fe2b5d359318b68f7f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4279c6de947841fb96d75cffaeb0f643 = $(`<div id="html_4279c6de947841fb96d75cffaeb0f643" style="width: 100.0%; height: 100.0%;">경남 밀양시 동북동쪽 15km 지역</div>`)[0];
+            popup_216bb1b20baf4fe2b5d359318b68f7f9.setContent(html_4279c6de947841fb96d75cffaeb0f643);
+        
+
+        marker_f2c35da994d84639964ba9ed64e2cd01.bindPopup(popup_216bb1b20baf4fe2b5d359318b68f7f9)
+        ;
+
+        
+    
+    
+            var marker_4a7ee331142b4ba5a155df10c6ae2fa8 = L.marker(
+                [35.56, 128.9],
+                {}
+            ).addTo(map_e70f109e0e9040c8aca7c12cb73ddf96);
+        
+    
+        var popup_614f5f118d2b410eb0fb8b2cb3b00955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06aa6cc756194cffb73839846d76a78a = $(`<div id="html_06aa6cc756194cffb73839846d76a78a" style="width: 100.0%; height: 100.0%;">경남 밀양시 동북동쪽 15km 지역</div>`)[0];
+            popup_614f5f118d2b410eb0fb8b2cb3b00955.setContent(html_06aa6cc756194cffb73839846d76a78a);
+        
+
+        marker_4a7ee331142b4ba5a155df10c6ae2fa8.bindPopup(popup_614f5f118d2b410eb0fb8b2cb3b00955)
+        ;
+
+        
+    
+</script>

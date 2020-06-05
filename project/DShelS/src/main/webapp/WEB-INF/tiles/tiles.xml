@@ -1,0 +1,40 @@
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+  
+  <tiles-definitions>
+  	
+  	<definition name="base" template="/views/index.jsp">
+  		<put-attribute name="header" value="/views/header.jsp" />
+  		<put-attribute name="nav" value="/views/nav.jsp" />
+  		<put-attribute name="body" value="" />
+  		<put-attribute name="footer" value="/views/footer.jsp" />
+  	</definition>
+
+  	<definition name="maps" template="/views/map/index.jsp">
+  		<put-attribute name="body" value="" />
+  	</definition>
+
+  	<definition name="error" template="/views/error/errorLayout.jsp">
+  		<put-attribute name="header" value="/views/error/header.jsp" />
+  		<put-attribute name="body" value="" />
+  	</definition>
+
+
+  	<definition name="main" extends="base">
+  		<put-attribute name="body" value="/views/main.jsp" />
+  	</definition>
+  	
+  	<definition name="map" extends="maps">
+  		<put-attribute name="body" value="/views/map/map.jsp" />
+  	</definition>
+  	
+  	 <definition name="info" extends="maps">
+  		<put-attribute name="body" value="/views/map/cap.jsp" />
+  	</definition>
+  	
+  	 <definition name="errors" extends="error">
+  		<put-attribute name="body" value="/views/error/error.jsp" />
+  	</definition>
+  	
+  </tiles-definitions>

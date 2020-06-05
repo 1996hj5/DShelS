@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace = "mybatis.TestDAO">
+	 <insert id="EShelterParser">
+			 insert into ESHELTER values(#{e_index},#{e_name}, #{e_addr}, #{e_area}, #{e_lat}, #{e_lon}, #{e_md}, #{e_tel})
+	 </insert>
+	 
+	 <insert id="TShelterParser">
+	 		insert into TSHELTER values(#{t_index},#{t_pname},#{t_type},#{t_addr},#{t_lat},#{t_lon},#{t_area},#{t_person},#{t_tel},#{t_mname},#{t_mtel})
+	 </insert>
+	 
+	 <insert id="CShelterParser">
+	 	insert into CSHELTER values(#{c_index},#{c_name},#{c_div},#{c_naddr},#{c_addr},#{c_lat},#{c_lon},#{c_area},#{c_person},#{c_mname},#{c_mtel})
+	 </insert>
+	 
+  </mapper>
